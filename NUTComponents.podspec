@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NUTComponents'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NUTComponents.'
+  s.summary          = 'Un Framework para componentes custom'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        Un Framework donde se pueden agregar extensiones, clases custom y componentes para hacer mas rapido el desarrollo.
                        DESC
 
   s.homepage         = 'https://github.com/migue19/NUTComponents'
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
