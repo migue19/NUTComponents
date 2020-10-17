@@ -1,0 +1,22 @@
+{
+  "name": "NUTComponents",
+  "version": "0.1.0",
+  "summary": "A short description of NUTComponents.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/migue19/NUTComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "migue19": "miguelmexicano18@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/migue19/NUTComponents.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NUTComponents/Classes/**/*"
+}

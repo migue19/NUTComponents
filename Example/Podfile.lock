@@ -1,0 +1,16 @@
+PODS:
+  - NUTComponents (0.1.0)
+
+DEPENDENCIES:
+  - NUTComponents (from `../`)
+
+EXTERNAL SOURCES:
+  NUTComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NUTComponents: 8de2b4801acef5599442773b8c1dfc02830b4d10
+
+PODFILE CHECKSUM: 611566354d0b5665aa2e6b9623417e016fff711b
+
+COCOAPODS: 1.9.3
