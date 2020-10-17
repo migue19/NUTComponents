@@ -30,7 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.1'
 
-  s.source_files = 'NUTComponents/Classes/**/*'
+  s.source_files = 'Classes/**/*'
+  s.swift_version = "5.0"
   
   # s.resource_bundles = {
   #   'NUTComponents' => ['NUTComponents/Assets/*.png']
