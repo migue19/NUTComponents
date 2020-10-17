@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NUTComponents_Example' do
+  pod 'NUTComponents', :path => '../'
+
+  target 'NUTComponents_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
