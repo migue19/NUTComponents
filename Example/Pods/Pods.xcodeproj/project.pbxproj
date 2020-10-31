@@ -11,6 +11,7 @@
 		01DFCACF2985460442C315D0F460C9DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		03287F1B3A35F5681E8E2BE8C1212725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1D2E9661253B92F700F15EB6 /* NUTKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E9660253B92F700F15EB6 /* NUTKeyboard.swift */; };
+		1DA5C1E4254DD8BD00BE7AB8 /* NUTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5C1E3254DD8BD00BE7AB8 /* NUTButton.swift */; };
 		21280F3F26C9D76E689EC4DE0F40825E /* Pods-NUTComponents_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21ED2ABEC521EBE2568A6DF8D26F5B46 /* Pods-NUTComponents_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DE38C310FD8F73E073095AE7AE5366F /* NUTComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3EB2363C08E2727C9DB50260048B8A /* NUTComponents-dummy.m */; };
 		A82652612BB4D89E2DA118AEE2B07B51 /* NUTComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF63395A1BA59D6DEC5CBC9EB93EE03 /* NUTComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +42,7 @@
 		0BA86A0B2B12D01E65F4641D1FF40E9D /* Pods_NUTComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NUTComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		191628C576F1AA6A2C451A13EF485C8C /* Pods-NUTComponents_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NUTComponents_Tests.modulemap"; sourceTree = "<group>"; };
 		1D2E9660253B92F700F15EB6 /* NUTKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUTKeyboard.swift; sourceTree = "<group>"; };
+		1DA5C1E3254DD8BD00BE7AB8 /* NUTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUTButton.swift; sourceTree = "<group>"; };
 		1DE6DFD003EC7784462C78570B073911 /* Pods-NUTComponents_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NUTComponents_Example-dummy.m"; sourceTree = "<group>"; };
 		21098253ED2DC7E576E83AB5BF3A17F9 /* Pods-NUTComponents_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NUTComponents_Tests-umbrella.h"; sourceTree = "<group>"; };
 		21ED2ABEC521EBE2568A6DF8D26F5B46 /* Pods-NUTComponents_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NUTComponents_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				1D2E9660253B92F700F15EB6 /* NUTKeyboard.swift */,
+				1DA5C1E3254DD8BD00BE7AB8 /* NUTButton.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 			files = (
 				1D2E9661253B92F700F15EB6 /* NUTKeyboard.swift in Sources */,
 				3DE38C310FD8F73E073095AE7AE5366F /* NUTComponents-dummy.m in Sources */,
+				1DA5C1E4254DD8BD00BE7AB8 /* NUTButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
