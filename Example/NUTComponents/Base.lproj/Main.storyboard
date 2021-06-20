@@ -45,11 +45,21 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="uIJ-1c-qds">
+                                <rect key="frame" x="0.0" y="185.5" width="375" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="doneAccessory" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="oD6-XW-tW6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="0gC-Ux-owv"/>
+                            <constraint firstItem="uIJ-1c-qds" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="9cE-YM-qoq"/>
+                            <constraint firstAttribute="trailing" secondItem="uIJ-1c-qds" secondAttribute="trailing" id="WBd-Ec-scg"/>
                             <constraint firstItem="oD6-XW-tW6" firstAttribute="top" secondItem="Oxh-Fl-QaW" secondAttribute="bottom" constant="10" id="ZR2-HZ-w9Q"/>
+                            <constraint firstItem="Oxh-Fl-QaW" firstAttribute="top" secondItem="uIJ-1c-qds" secondAttribute="bottom" constant="25" id="Zad-AX-sjZ"/>
                             <constraint firstItem="oD6-XW-tW6" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="cTK-Oq-eCE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="oD6-XW-tW6" secondAttribute="trailing" id="huT-nv-EgH"/>
                             <constraint firstItem="oD6-XW-tW6" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="qbC-po-GWf"/>

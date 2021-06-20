@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MC2W678MVZ;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MC2W678MVZ;
 						LastSwiftMigration = 1200;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -485,8 +487,10 @@
 			baseConfigurationReference = 34A7AAEDAECB6FBF3BBEB1A7 /* Pods-NUTComponents_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MC2W678MVZ;
 				INFOPLIST_FILE = NUTComponents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.2;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,8 +504,10 @@
 			baseConfigurationReference = 5A0DD98D9C54AF7EB32C7C88 /* Pods-NUTComponents_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MC2W678MVZ;
 				INFOPLIST_FILE = NUTComponents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.2;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3666F1A02093A1CA86987D97 /* Pods-NUTComponents_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = MC2W678MVZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -536,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8295CCB94BDCD834C8D374E4 /* Pods-NUTComponents_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = MC2W678MVZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
