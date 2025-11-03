@@ -10,13 +10,17 @@
 		01A3CD224C92F958B883679F9635A34E /* Pods-NUTComponents_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAE7A60EBAC85561976C619DC91A00E /* Pods-NUTComponents_Tests-dummy.m */; };
 		01DFCACF2985460442C315D0F460C9DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		03287F1B3A35F5681E8E2BE8C1212725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1D2E9661253B92F700F15EB6 /* NUTKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E9660253B92F700F15EB6 /* NUTKeyboard.swift */; };
-		1DA5C1E4254DD8BD00BE7AB8 /* NUTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5C1E3254DD8BD00BE7AB8 /* NUTButton.swift */; };
 		21280F3F26C9D76E689EC4DE0F40825E /* Pods-NUTComponents_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21ED2ABEC521EBE2568A6DF8D26F5B46 /* Pods-NUTComponents_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DE38C310FD8F73E073095AE7AE5366F /* NUTComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3EB2363C08E2727C9DB50260048B8A /* NUTComponents-dummy.m */; };
 		A82652612BB4D89E2DA118AEE2B07B51 /* NUTComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF63395A1BA59D6DEC5CBC9EB93EE03 /* NUTComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0308A998E389A8FB2DDE0B019F16C73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F1221E8CD5201E2D71B097A4DAB88299 /* Pods-NUTComponents_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE6DFD003EC7784462C78570B073911 /* Pods-NUTComponents_Example-dummy.m */; };
+		F2FB6A1C2EB919580003CDB7 /* NUTKeyboard+UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A182EB919580003CDB7 /* NUTKeyboard+UISearchBar.swift */; };
+		F2FB6A1D2EB919580003CDB7 /* NUTKeyboard+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A192EB919580003CDB7 /* NUTKeyboard+UITextField.swift */; };
+		F2FB6A1E2EB919580003CDB7 /* NUTKeyboard+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A1A2EB919580003CDB7 /* NUTKeyboard+UITextView.swift */; };
+		F2FB6A1F2EB919580003CDB7 /* NUTKeyboard+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A1B2EB919580003CDB7 /* NUTKeyboard+UIViewController.swift */; };
+		F2FB6A202EB919580003CDB7 /* NUTKeyboard+UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A172EB919580003CDB7 /* NUTKeyboard+UIResponder.swift */; };
+		F2FB6A222EB91C5B0003CDB7 /* NUTMaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A212EB91C5B0003CDB7 /* NUTMaterialButton.swift */; };
 		F40CF8E98684E1E64780CEF5BF2942BE /* Pods-NUTComponents_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21098253ED2DC7E576E83AB5BF3A17F9 /* Pods-NUTComponents_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -41,8 +45,6 @@
 		04135BACA00312340DE42C1F5C436980 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0BA86A0B2B12D01E65F4641D1FF40E9D /* Pods_NUTComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NUTComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		191628C576F1AA6A2C451A13EF485C8C /* Pods-NUTComponents_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NUTComponents_Tests.modulemap"; sourceTree = "<group>"; };
-		1D2E9660253B92F700F15EB6 /* NUTKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUTKeyboard.swift; sourceTree = "<group>"; };
-		1DA5C1E3254DD8BD00BE7AB8 /* NUTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUTButton.swift; sourceTree = "<group>"; };
 		1DE6DFD003EC7784462C78570B073911 /* Pods-NUTComponents_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NUTComponents_Example-dummy.m"; sourceTree = "<group>"; };
 		21098253ED2DC7E576E83AB5BF3A17F9 /* Pods-NUTComponents_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NUTComponents_Tests-umbrella.h"; sourceTree = "<group>"; };
 		21ED2ABEC521EBE2568A6DF8D26F5B46 /* Pods-NUTComponents_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NUTComponents_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -68,6 +70,13 @@
 		C2221A2CD3E8DE8EF3BB9968E1408216 /* NUTComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NUTComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFAE7A60EBAC85561976C619DC91A00E /* Pods-NUTComponents_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NUTComponents_Tests-dummy.m"; sourceTree = "<group>"; };
 		DC0CDB96B50F3A5AFD617F9755F77FB3 /* NUTComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NUTComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F2FB6A172EB919580003CDB7 /* NUTKeyboard+UIResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NUTKeyboard+UIResponder.swift"; sourceTree = "<group>"; };
+		F2FB6A182EB919580003CDB7 /* NUTKeyboard+UISearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NUTKeyboard+UISearchBar.swift"; sourceTree = "<group>"; };
+		F2FB6A192EB919580003CDB7 /* NUTKeyboard+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NUTKeyboard+UITextField.swift"; sourceTree = "<group>"; };
+		F2FB6A1A2EB919580003CDB7 /* NUTKeyboard+UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NUTKeyboard+UITextView.swift"; sourceTree = "<group>"; };
+		F2FB6A1B2EB919580003CDB7 /* NUTKeyboard+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NUTKeyboard+UIViewController.swift"; sourceTree = "<group>"; };
+		F2FB6A212EB91C5B0003CDB7 /* NUTMaterialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUTMaterialButton.swift; sourceTree = "<group>"; };
+		F2FB6A602EB91D840003CDB7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F36C5A4BF6D9C6ED8C8EDA906E00A655 /* Pods-NUTComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NUTComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F870BD2B957946895B154E5730525FF0 /* Pods-NUTComponents_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NUTComponents_Example.modulemap"; sourceTree = "<group>"; };
 		FB3EB2363C08E2727C9DB50260048B8A /* NUTComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NUTComponents-dummy.m"; sourceTree = "<group>"; };
@@ -138,8 +147,12 @@
 		1D2E965A253B917600F15EB6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1D2E9660253B92F700F15EB6 /* NUTKeyboard.swift */,
-				1DA5C1E3254DD8BD00BE7AB8 /* NUTButton.swift */,
+				F2FB6A172EB919580003CDB7 /* NUTKeyboard+UIResponder.swift */,
+				F2FB6A182EB919580003CDB7 /* NUTKeyboard+UISearchBar.swift */,
+				F2FB6A192EB919580003CDB7 /* NUTKeyboard+UITextField.swift */,
+				F2FB6A1A2EB919580003CDB7 /* NUTKeyboard+UITextView.swift */,
+				F2FB6A1B2EB919580003CDB7 /* NUTKeyboard+UIViewController.swift */,
+				F2FB6A212EB91C5B0003CDB7 /* NUTMaterialButton.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -207,6 +220,7 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
+				F2FB6A602EB91D840003CDB7 /* README.md */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				0ECA7716AB8B574E081A739790D3C7EA /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
@@ -391,9 +405,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D2E9661253B92F700F15EB6 /* NUTKeyboard.swift in Sources */,
 				3DE38C310FD8F73E073095AE7AE5366F /* NUTComponents-dummy.m in Sources */,
-				1DA5C1E4254DD8BD00BE7AB8 /* NUTButton.swift in Sources */,
+				F2FB6A1C2EB919580003CDB7 /* NUTKeyboard+UISearchBar.swift in Sources */,
+				F2FB6A1D2EB919580003CDB7 /* NUTKeyboard+UITextField.swift in Sources */,
+				F2FB6A1E2EB919580003CDB7 /* NUTKeyboard+UITextView.swift in Sources */,
+				F2FB6A1F2EB919580003CDB7 /* NUTKeyboard+UIViewController.swift in Sources */,
+				F2FB6A202EB919580003CDB7 /* NUTKeyboard+UIResponder.swift in Sources */,
+				F2FB6A222EB91C5B0003CDB7 /* NUTMaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
