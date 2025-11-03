@@ -21,6 +21,23 @@
 		F2FB6A1F2EB919580003CDB7 /* NUTKeyboard+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A1B2EB919580003CDB7 /* NUTKeyboard+UIViewController.swift */; };
 		F2FB6A202EB919580003CDB7 /* NUTKeyboard+UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A172EB919580003CDB7 /* NUTKeyboard+UIResponder.swift */; };
 		F2FB6A222EB91C5B0003CDB7 /* NUTMaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A212EB91C5B0003CDB7 /* NUTMaterialButton.swift */; };
+		F2FB6A642EB91F100003CDB7 /* CardProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A632EB91F100003CDB7 /* CardProgressView.swift */; };
+		F2FB6A652EB91F100003CDB7 /* CardProgressPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A622EB91F100003CDB7 /* CardProgressPreview.swift */; };
+		F2FB6A772EB91FC50003CDB7 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A712EB91FC50003CDB7 /* InfoView.swift */; };
+		F2FB6A782EB91FC50003CDB7 /* FadingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A702EB91FC50003CDB7 /* FadingPanelView.swift */; };
+		F2FB6A792EB91FC50003CDB7 /* SegmentedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A722EB91FC50003CDB7 /* SegmentedProgressBar.swift */; };
+		F2FB6A7A2EB91FC50003CDB7 /* DateBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A6E2EB91FC50003CDB7 /* DateBadgeView.swift */; };
+		F2FB6A7B2EB91FC50003CDB7 /* TrainingCardMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A742EB91FC50003CDB7 /* TrainingCardMapView.swift */; };
+		F2FB6A7C2EB91FC50003CDB7 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A732EB91FC50003CDB7 /* SeparatorView.swift */; };
+		F2FB6A7D2EB91FC50003CDB7 /* LinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A672EB91FC50003CDB7 /* LinkButton.swift */; };
+		F2FB6A7E2EB91FC50003CDB7 /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A6C2EB91FC50003CDB7 /* CustomSegmentControl.swift */; };
+		F2FB6A7F2EB91FC50003CDB7 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A6D2EB91FC50003CDB7 /* CustomTextField.swift */; };
+		F2FB6A802EB91FC50003CDB7 /* TrainingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A752EB91FC50003CDB7 /* TrainingCardView.swift */; };
+		F2FB6A812EB91FC50003CDB7 /* CheckCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A6B2EB91FC50003CDB7 /* CheckCircleView.swift */; };
+		F2FB6A822EB91FC50003CDB7 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A662EB91FC50003CDB7 /* BorderedButton.swift */; };
+		F2FB6A832EB91FC50003CDB7 /* SolidButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A682EB91FC50003CDB7 /* SolidButton.swift */; };
+		F2FB6A842EB91FC50003CDB7 /* BarCharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A6A2EB91FC50003CDB7 /* BarCharView.swift */; };
+		F2FB6A852EB91FC50003CDB7 /* DayInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A6F2EB91FC50003CDB7 /* DayInfoView.swift */; };
 		F40CF8E98684E1E64780CEF5BF2942BE /* Pods-NUTComponents_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21098253ED2DC7E576E83AB5BF3A17F9 /* Pods-NUTComponents_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -77,6 +94,23 @@
 		F2FB6A1B2EB919580003CDB7 /* NUTKeyboard+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NUTKeyboard+UIViewController.swift"; sourceTree = "<group>"; };
 		F2FB6A212EB91C5B0003CDB7 /* NUTMaterialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUTMaterialButton.swift; sourceTree = "<group>"; };
 		F2FB6A602EB91D840003CDB7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F2FB6A622EB91F100003CDB7 /* CardProgressPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProgressPreview.swift; sourceTree = "<group>"; };
+		F2FB6A632EB91F100003CDB7 /* CardProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProgressView.swift; sourceTree = "<group>"; };
+		F2FB6A662EB91FC50003CDB7 /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		F2FB6A672EB91FC50003CDB7 /* LinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkButton.swift; sourceTree = "<group>"; };
+		F2FB6A682EB91FC50003CDB7 /* SolidButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidButton.swift; sourceTree = "<group>"; };
+		F2FB6A6A2EB91FC50003CDB7 /* BarCharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCharView.swift; sourceTree = "<group>"; };
+		F2FB6A6B2EB91FC50003CDB7 /* CheckCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCircleView.swift; sourceTree = "<group>"; };
+		F2FB6A6C2EB91FC50003CDB7 /* CustomSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
+		F2FB6A6D2EB91FC50003CDB7 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		F2FB6A6E2EB91FC50003CDB7 /* DateBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateBadgeView.swift; sourceTree = "<group>"; };
+		F2FB6A6F2EB91FC50003CDB7 /* DayInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayInfoView.swift; sourceTree = "<group>"; };
+		F2FB6A702EB91FC50003CDB7 /* FadingPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadingPanelView.swift; sourceTree = "<group>"; };
+		F2FB6A712EB91FC50003CDB7 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		F2FB6A722EB91FC50003CDB7 /* SegmentedProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedProgressBar.swift; sourceTree = "<group>"; };
+		F2FB6A732EB91FC50003CDB7 /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		F2FB6A742EB91FC50003CDB7 /* TrainingCardMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCardMapView.swift; sourceTree = "<group>"; };
+		F2FB6A752EB91FC50003CDB7 /* TrainingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCardView.swift; sourceTree = "<group>"; };
 		F36C5A4BF6D9C6ED8C8EDA906E00A655 /* Pods-NUTComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NUTComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F870BD2B957946895B154E5730525FF0 /* Pods-NUTComponents_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NUTComponents_Example.modulemap"; sourceTree = "<group>"; };
 		FB3EB2363C08E2727C9DB50260048B8A /* NUTComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NUTComponents-dummy.m"; sourceTree = "<group>"; };
@@ -147,6 +181,8 @@
 		1D2E965A253B917600F15EB6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F2FB6A762EB91FC50003CDB7 /* ComponentsUI */,
+				F2FB6A612EB91F040003CDB7 /* Card */,
 				F2FB6A172EB919580003CDB7 /* NUTKeyboard+UIResponder.swift */,
 				F2FB6A182EB919580003CDB7 /* NUTKeyboard+UISearchBar.swift */,
 				F2FB6A192EB919580003CDB7 /* NUTKeyboard+UITextField.swift */,
@@ -246,6 +282,45 @@
 			);
 			name = NUTComponents;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		F2FB6A612EB91F040003CDB7 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB6A622EB91F100003CDB7 /* CardProgressPreview.swift */,
+				F2FB6A632EB91F100003CDB7 /* CardProgressView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		F2FB6A692EB91FC50003CDB7 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB6A662EB91FC50003CDB7 /* BorderedButton.swift */,
+				F2FB6A672EB91FC50003CDB7 /* LinkButton.swift */,
+				F2FB6A682EB91FC50003CDB7 /* SolidButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		F2FB6A762EB91FC50003CDB7 /* ComponentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB6A692EB91FC50003CDB7 /* Buttons */,
+				F2FB6A6A2EB91FC50003CDB7 /* BarCharView.swift */,
+				F2FB6A6B2EB91FC50003CDB7 /* CheckCircleView.swift */,
+				F2FB6A6C2EB91FC50003CDB7 /* CustomSegmentControl.swift */,
+				F2FB6A6D2EB91FC50003CDB7 /* CustomTextField.swift */,
+				F2FB6A6E2EB91FC50003CDB7 /* DateBadgeView.swift */,
+				F2FB6A6F2EB91FC50003CDB7 /* DayInfoView.swift */,
+				F2FB6A702EB91FC50003CDB7 /* FadingPanelView.swift */,
+				F2FB6A712EB91FC50003CDB7 /* InfoView.swift */,
+				F2FB6A722EB91FC50003CDB7 /* SegmentedProgressBar.swift */,
+				F2FB6A732EB91FC50003CDB7 /* SeparatorView.swift */,
+				F2FB6A742EB91FC50003CDB7 /* TrainingCardMapView.swift */,
+				F2FB6A752EB91FC50003CDB7 /* TrainingCardView.swift */,
+			);
+			path = ComponentsUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,10 +480,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2FB6A642EB91F100003CDB7 /* CardProgressView.swift in Sources */,
+				F2FB6A652EB91F100003CDB7 /* CardProgressPreview.swift in Sources */,
 				3DE38C310FD8F73E073095AE7AE5366F /* NUTComponents-dummy.m in Sources */,
 				F2FB6A1C2EB919580003CDB7 /* NUTKeyboard+UISearchBar.swift in Sources */,
 				F2FB6A1D2EB919580003CDB7 /* NUTKeyboard+UITextField.swift in Sources */,
 				F2FB6A1E2EB919580003CDB7 /* NUTKeyboard+UITextView.swift in Sources */,
+				F2FB6A772EB91FC50003CDB7 /* InfoView.swift in Sources */,
+				F2FB6A782EB91FC50003CDB7 /* FadingPanelView.swift in Sources */,
+				F2FB6A792EB91FC50003CDB7 /* SegmentedProgressBar.swift in Sources */,
+				F2FB6A7A2EB91FC50003CDB7 /* DateBadgeView.swift in Sources */,
+				F2FB6A7B2EB91FC50003CDB7 /* TrainingCardMapView.swift in Sources */,
+				F2FB6A7C2EB91FC50003CDB7 /* SeparatorView.swift in Sources */,
+				F2FB6A7D2EB91FC50003CDB7 /* LinkButton.swift in Sources */,
+				F2FB6A7E2EB91FC50003CDB7 /* CustomSegmentControl.swift in Sources */,
+				F2FB6A7F2EB91FC50003CDB7 /* CustomTextField.swift in Sources */,
+				F2FB6A802EB91FC50003CDB7 /* TrainingCardView.swift in Sources */,
+				F2FB6A812EB91FC50003CDB7 /* CheckCircleView.swift in Sources */,
+				F2FB6A822EB91FC50003CDB7 /* BorderedButton.swift in Sources */,
+				F2FB6A832EB91FC50003CDB7 /* SolidButton.swift in Sources */,
+				F2FB6A842EB91FC50003CDB7 /* BarCharView.swift in Sources */,
+				F2FB6A852EB91FC50003CDB7 /* DayInfoView.swift in Sources */,
 				F2FB6A1F2EB919580003CDB7 /* NUTKeyboard+UIViewController.swift in Sources */,
 				F2FB6A202EB919580003CDB7 /* NUTKeyboard+UIResponder.swift in Sources */,
 				F2FB6A222EB91C5B0003CDB7 /* NUTMaterialButton.swift in Sources */,
@@ -458,7 +550,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/NUTComponents/NUTComponents-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/NUTComponents/NUTComponents-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/NUTComponents/NUTComponents.modulemap";
 				PRODUCT_MODULE_NAME = NUTComponents;
@@ -525,7 +617,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/NUTComponents/NUTComponents-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/NUTComponents/NUTComponents-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/NUTComponents/NUTComponents.modulemap";
 				PRODUCT_MODULE_NAME = NUTComponents;

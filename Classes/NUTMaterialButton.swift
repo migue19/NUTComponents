@@ -112,7 +112,7 @@ open class NUTMaterialButton: UIButton {
         
         // Animate press
         UIView.animate(withDuration: 0.1) {
-            self.transform = CGAffineTransform(scaleX: 0.95, scaleY: 0.95)
+            self.transform = CGAffineTransform(scaleX: 0.95, y: 0.95)
             self.layer.shadowOffset = CGSize(width: 0, height: self.elevation / 2)
             self.layer.shadowRadius = self.elevation / 2
         }
