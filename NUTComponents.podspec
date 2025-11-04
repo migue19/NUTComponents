@@ -1,42 +1,59 @@
-#
-# Be sure to run `pod lib lint NUTComponents.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'NUTComponents'
-  s.version          = '0.1.3'
-  s.summary          = 'Un Framework para componentes custom'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '1.0.3'
+  s.summary          = 'A comprehensive collection of reusable UI components and keyboard extensions for iOS applications.'
+  
   s.description      = <<-DESC
-                        Un Framework con componentes UI.
+  NUTComponents is a powerful UI component library that provides:
+  - Custom UI components including buttons, text fields, cards, and progress views
+  - Keyboard management extensions for UIViewController, UITextField, UITextView, and UISearchBar
+  - Material Design inspired button with elevation and ripple effects
+  - Ready-to-use components for training sessions and data visualization
+  - Fully customizable and IBDesignable components
                        DESC
 
-  s.homepage         = 'https://github.com/migue19/NUTComponents'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/NutSystems/NUTComponents'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Miguel Mexicano Herrera' => 'miguelmexicano18@gmail.com' }
-  s.source           = { :git => 'https://github.com/migue19/NUTComponents.git', :tag => s.version }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Miguel Mexicano Herrera' => 'miguel@nutsystems.com' }
+  s.source           = { :git => 'https://github.com/NutSystems/NUTComponents.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '15.0'
+  s.ios.deployment_target = '13.0'
+  s.swift_versions = ['5.0', '5.1', '5.2', '5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '5.9']
 
-  s.source_files = 'Classes/**/*'
-  s.swift_version = "5.0"
+  s.source_files = 'Classes/**/*.swift'
   
+  # Organize subspecs for better modularity
+  s.subspec 'Keyboard' do |keyboard|
+    keyboard.source_files = 'Classes/NUTKeyboard*.swift'
+  end
+  
+  s.subspec 'Buttons' do |buttons|
+    buttons.source_files = 'Classes/NUTMaterialButton.swift', 'Classes/ComponentsUI/Buttons/*.swift'
+  end
+  
+  s.subspec 'Card' do |card|
+    card.source_files = 'Classes/Card/*.swift'
+  end
+  
+  s.subspec 'ComponentsUI' do |components|
+    components.source_files = 'Classes/ComponentsUI/*.swift'
+  end
+
+  s.frameworks = 'UIKit', 'Foundation'
+  
+  # Resource bundles if you have assets
   # s.resource_bundles = {
   #   'NUTComponents' => ['NUTComponents/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit'
+  # Platform specific configurations
+  s.ios.frameworks = 'UIKit'
+  
+  # Build settings
+  s.requires_arc = true
+  s.pod_target_xcconfig = {
+    'SWIFT_VERSION' => '5.0',
+    'DEFINES_MODULE' => 'YES'
+  }
+
 end
