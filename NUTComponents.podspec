@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NUTComponents'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Un Framework para componentes custom'
 
 # This description is used to generate tags and improve search results.
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                        Un Framework donde se pueden agregar extensiones, clases custom y componentes para hacer mas rapido el desarrollo.
+                        Un Framework con componentes UI.
                        DESC
 
   s.homepage         = 'https://github.com/migue19/NUTComponents'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'migue19' => 'miguelmexicano18@gmail.com' }
-  s.source           = { :git => 'https://github.com/migue19/NUTComponents.git', :tag => s.version.to_s }
+  s.author           = { 'Miguel Mexicano Herrera' => 'miguelmexicano18@gmail.com' }
+  s.source           = { :git => 'https://github.com/migue19/NUTComponents.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.1'
+  s.ios.deployment_target = '15.0'
 
   s.source_files = 'Classes/**/*'
   s.swift_version = "5.0"
@@ -39,5 +39,4 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

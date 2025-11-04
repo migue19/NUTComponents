@@ -7,190 +7,230 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01A3CD224C92F958B883679F9635A34E /* Pods-NUTComponents_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAE7A60EBAC85561976C619DC91A00E /* Pods-NUTComponents_Tests-dummy.m */; };
-		01DFCACF2985460442C315D0F460C9DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		03287F1B3A35F5681E8E2BE8C1212725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		21280F3F26C9D76E689EC4DE0F40825E /* Pods-NUTComponents_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21ED2ABEC521EBE2568A6DF8D26F5B46 /* Pods-NUTComponents_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DE38C310FD8F73E073095AE7AE5366F /* NUTComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3EB2363C08E2727C9DB50260048B8A /* NUTComponents-dummy.m */; };
-		A82652612BB4D89E2DA118AEE2B07B51 /* NUTComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF63395A1BA59D6DEC5CBC9EB93EE03 /* NUTComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0308A998E389A8FB2DDE0B019F16C73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F1221E8CD5201E2D71B097A4DAB88299 /* Pods-NUTComponents_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE6DFD003EC7784462C78570B073911 /* Pods-NUTComponents_Example-dummy.m */; };
-		F2FB6A1C2EB919580003CDB7 /* NUTKeyboard+UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A182EB919580003CDB7 /* NUTKeyboard+UISearchBar.swift */; };
-		F2FB6A1D2EB919580003CDB7 /* NUTKeyboard+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A192EB919580003CDB7 /* NUTKeyboard+UITextField.swift */; };
-		F2FB6A1E2EB919580003CDB7 /* NUTKeyboard+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A1A2EB919580003CDB7 /* NUTKeyboard+UITextView.swift */; };
-		F2FB6A1F2EB919580003CDB7 /* NUTKeyboard+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A1B2EB919580003CDB7 /* NUTKeyboard+UIViewController.swift */; };
-		F2FB6A202EB919580003CDB7 /* NUTKeyboard+UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A172EB919580003CDB7 /* NUTKeyboard+UIResponder.swift */; };
-		F2FB6A222EB91C5B0003CDB7 /* NUTMaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A212EB91C5B0003CDB7 /* NUTMaterialButton.swift */; };
-		F2FB6A642EB91F100003CDB7 /* CardProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A632EB91F100003CDB7 /* CardProgressView.swift */; };
-		F2FB6A652EB91F100003CDB7 /* CardProgressPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A622EB91F100003CDB7 /* CardProgressPreview.swift */; };
-		F2FB6A772EB91FC50003CDB7 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A712EB91FC50003CDB7 /* InfoView.swift */; };
-		F2FB6A782EB91FC50003CDB7 /* FadingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A702EB91FC50003CDB7 /* FadingPanelView.swift */; };
-		F2FB6A792EB91FC50003CDB7 /* SegmentedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A722EB91FC50003CDB7 /* SegmentedProgressBar.swift */; };
-		F2FB6A7A2EB91FC50003CDB7 /* DateBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A6E2EB91FC50003CDB7 /* DateBadgeView.swift */; };
-		F2FB6A7B2EB91FC50003CDB7 /* TrainingCardMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A742EB91FC50003CDB7 /* TrainingCardMapView.swift */; };
-		F2FB6A7C2EB91FC50003CDB7 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A732EB91FC50003CDB7 /* SeparatorView.swift */; };
-		F2FB6A7D2EB91FC50003CDB7 /* LinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A672EB91FC50003CDB7 /* LinkButton.swift */; };
-		F2FB6A7E2EB91FC50003CDB7 /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A6C2EB91FC50003CDB7 /* CustomSegmentControl.swift */; };
-		F2FB6A7F2EB91FC50003CDB7 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A6D2EB91FC50003CDB7 /* CustomTextField.swift */; };
-		F2FB6A802EB91FC50003CDB7 /* TrainingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A752EB91FC50003CDB7 /* TrainingCardView.swift */; };
-		F2FB6A812EB91FC50003CDB7 /* CheckCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A6B2EB91FC50003CDB7 /* CheckCircleView.swift */; };
-		F2FB6A822EB91FC50003CDB7 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A662EB91FC50003CDB7 /* BorderedButton.swift */; };
-		F2FB6A832EB91FC50003CDB7 /* SolidButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A682EB91FC50003CDB7 /* SolidButton.swift */; };
-		F2FB6A842EB91FC50003CDB7 /* BarCharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A6A2EB91FC50003CDB7 /* BarCharView.swift */; };
-		F2FB6A852EB91FC50003CDB7 /* DayInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB6A6F2EB91FC50003CDB7 /* DayInfoView.swift */; };
-		F40CF8E98684E1E64780CEF5BF2942BE /* Pods-NUTComponents_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21098253ED2DC7E576E83AB5BF3A17F9 /* Pods-NUTComponents_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		038D9155ADC32F45C05E53819B9522E2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38343A7E4D6D3040E5E6137A8F50264F /* InfoView.swift */; };
+		0B304E917A41BC3F07D528F709A87D21 /* NUTMaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BD57AEF89EEB7FD5873C39DF574B1B /* NUTMaterialButton.swift */; };
+		1C4768F45DAED2D2019F4C8381D152BB /* SegmentedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE6BF053B476F7912E2640C212E8C /* SegmentedProgressBar.swift */; };
+		1C4BFCA5528AAB4F234463D8ABFCF345 /* TrainingCardMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC8199D0FC0ADE36F26EFFF6E08C02B /* TrainingCardMapView.swift */; };
+		1F7C6C9ACCB02FCC350774E0122BF146 /* LinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C801AD51B2BE3237BA9EF70BE1FF97E /* LinkButton.swift */; };
+		1F8C3EAB20D7492D563314651CB95B2B /* CardProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B628E92FA8E326DEF20359F08012F45 /* CardProgressView.swift */; };
+		1FBAA1E4AE77469AAB8EA3C9EA4A4FD4 /* Pods-NUTComponents_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21ED2ABEC521EBE2568A6DF8D26F5B46 /* Pods-NUTComponents_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FF752E21DC084ABEE728D2F63800FE4 /* Pods-NUTComponents_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAE7A60EBAC85561976C619DC91A00E /* Pods-NUTComponents_Tests-dummy.m */; };
+		33E55D8A5EBB1EB8623512C8E2BF76EC /* SolidButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4339983D6BBB99307C1680E0C00AAE38 /* SolidButton.swift */; };
+		37542AF48B14C2A7E801CEBDC98B858F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A305336F8B1C8402CA60CE9A1256AF86 /* CustomTextField.swift */; };
+		37BE5DF6AC7387DC70F1A22A01940C6E /* NUTKeyboard+UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03B1A35B7A02AB1DD549116DD2B4976 /* NUTKeyboard+UISearchBar.swift */; };
+		421B0A79841CAA79E1E9D08F459D35F5 /* DayInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D06FCD7E62E6D2261A7D55437A2774 /* DayInfoView.swift */; };
+		47E2E21C65474E3E8913F168DAA4ABC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
+		4B7CA3D2C066E5D4B506FEE33D451889 /* NUTKeyboard+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380625E6D789599A732A3D5AA13E0296 /* NUTKeyboard+UITextField.swift */; };
+		50E923DF8C17D84748C208A8BB39421C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		657802DF405D7069866FB01468000B2B /* Pods-NUTComponents_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21098253ED2DC7E576E83AB5BF3A17F9 /* Pods-NUTComponents_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C83F7D67797993EB5451095BF25C54A /* CheckCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D57ABBAC67C8558C272DF331EEA7E /* CheckCircleView.swift */; };
+		6DE0800E30BDE0F6FF7F9D8445D18E04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		74212EAFA955CEF5BD2EFA3096C5C0FE /* DateBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F47C09DE27BA32865D2F9F5169FC625 /* DateBadgeView.swift */; };
+		8FB659E4DBDE5D92712A399907CCAB05 /* FadingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89592BE3B1D223A4D764996C4F8709F /* FadingPanelView.swift */; };
+		90A672C708346DB401A3D4789144C62B /* NUTKeyboard+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FDC3958CB13EB9DB7BC30E8597146 /* NUTKeyboard+UIViewController.swift */; };
+		A198D06319E959C2FA02D3D3A49ACA35 /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8B63A2D01ECA28E149F26B3868E890 /* CustomSegmentControl.swift */; };
+		A494D336664CE989B81F561638143144 /* NUTComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD7C4F7D969A5C3FDC26B19B24B051B /* NUTComponents-dummy.m */; };
+		A4D69542C2BC4BFC1720EF9F9FF1D403 /* NUTKeyboard+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D65A1F1960780AE9DF705BF90A6180 /* NUTKeyboard+UITextView.swift */; };
+		ADC3939046F165034469295E2E20C007 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F889D248A7E7F3FB654A56ADBA04602 /* SeparatorView.swift */; };
+		B74B0ABEB09DBE3980ECB18618F0A765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		C8D1E5766C795B242C9857B326B34976 /* BarCharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E195350675A575A340FBB9425CC20250 /* BarCharView.swift */; };
+		D6DC3801CB30EBB29BD3B5C1CFEEA019 /* NUTComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1118FFBAF739F18BB0E35D6C00CEF6D1 /* NUTComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6EDCEBF705BEE9C8910875FD948D489 /* TrainingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7963CD819E5D9333288B6E602D92666 /* TrainingCardView.swift */; };
+		E00F56BE842BD8B97C4C4A8A5CF1371C /* NUTKeyboard+UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA25910D9D18B1A65BD3C90D5B41E96 /* NUTKeyboard+UIResponder.swift */; };
+		E75839AAD31278AE23F32B15E1C63CC3 /* Pods-NUTComponents_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE6DFD003EC7784462C78570B073911 /* Pods-NUTComponents_Example-dummy.m */; };
+		F2EA56F32EB992440036D5A5 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = F2EA56F22EB992440036D5A5 /* CHANGELOG.md */; };
+		F4E166A1460AE8D47DA4CA70B12EACD7 /* CardProgressPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574EE4ACB5253746D085BF861C574789 /* CardProgressPreview.swift */; };
+		F69F774BB3135A8F54C89A84D2657FA6 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7EABB65046C3E47100464293611E76 /* BorderedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B75B8DBBD8FD9280DB9A047D007E2598 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5C758CAA87016B49DDE18F14D4FBFE47;
-			remoteInfo = "Pods-NUTComponents_Example";
-		};
-		F0264459088B29392391EE5A20117306 /* PBXContainerItemProxy */ = {
+		A6EBF084D63AF7405FEE395C8F5E5185 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9F1CFB24251C6CA9CDAC518698DE5C34;
 			remoteInfo = NUTComponents;
 		};
+		FC26E5BDF5C2A28CFCD2763020FC918A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C758CAA87016B49DDE18F14D4FBFE47;
+			remoteInfo = "Pods-NUTComponents_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04135BACA00312340DE42C1F5C436980 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0BA86A0B2B12D01E65F4641D1FF40E9D /* Pods_NUTComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NUTComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1118FFBAF739F18BB0E35D6C00CEF6D1 /* NUTComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NUTComponents-umbrella.h"; sourceTree = "<group>"; };
+		11BD57AEF89EEB7FD5873C39DF574B1B /* NUTMaterialButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NUTMaterialButton.swift; path = Classes/NUTMaterialButton.swift; sourceTree = "<group>"; };
+		188E1F314EF4E0639509401B57B49780 /* NUTComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NUTComponents-Info.plist"; sourceTree = "<group>"; };
 		191628C576F1AA6A2C451A13EF485C8C /* Pods-NUTComponents_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NUTComponents_Tests.modulemap"; sourceTree = "<group>"; };
+		1B628E92FA8E326DEF20359F08012F45 /* CardProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardProgressView.swift; sourceTree = "<group>"; };
 		1DE6DFD003EC7784462C78570B073911 /* Pods-NUTComponents_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NUTComponents_Example-dummy.m"; sourceTree = "<group>"; };
 		21098253ED2DC7E576E83AB5BF3A17F9 /* Pods-NUTComponents_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NUTComponents_Tests-umbrella.h"; sourceTree = "<group>"; };
 		21ED2ABEC521EBE2568A6DF8D26F5B46 /* Pods-NUTComponents_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NUTComponents_Example-umbrella.h"; sourceTree = "<group>"; };
-		264939159DFB07A5304C239BA1A45991 /* NUTComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NUTComponents-prefix.pch"; sourceTree = "<group>"; };
+		24AFBD2838F631919C7F966C3FE80C3E /* NUTComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NUTComponents.modulemap; sourceTree = "<group>"; };
 		28DAFEEE4207F0AE894652CD48010C57 /* Pods-NUTComponents_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NUTComponents_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3043F048FB14FB1A566343F4BAF5A0A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		361E37F3077AFA56055FADA95FF37FDF /* NUTComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NUTComponents-Info.plist"; sourceTree = "<group>"; };
+		380625E6D789599A732A3D5AA13E0296 /* NUTKeyboard+UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NUTKeyboard+UITextField.swift"; path = "Classes/NUTKeyboard+UITextField.swift"; sourceTree = "<group>"; };
+		38343A7E4D6D3040E5E6137A8F50264F /* InfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		3C801AD51B2BE3237BA9EF70BE1FF97E /* LinkButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LinkButton.swift; sourceTree = "<group>"; };
 		42B9486440261AC20DC08A83B3DEDCEF /* Pods-NUTComponents_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NUTComponents_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4571BBA73564A6504DD39E9D94EF599F /* NUTComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NUTComponents.debug.xcconfig; sourceTree = "<group>"; };
+		4339983D6BBB99307C1680E0C00AAE38 /* SolidButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SolidButton.swift; sourceTree = "<group>"; };
 		4CDA9A377165E3A21BA5D19DFEAD9EDA /* Pods-NUTComponents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NUTComponents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5476A215B9E62B7DD2360D0480DDF3FE /* Pods_NUTComponents_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NUTComponents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		574EE4ACB5253746D085BF861C574789 /* CardProgressPreview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardProgressPreview.swift; sourceTree = "<group>"; };
+		578FDC3958CB13EB9DB7BC30E8597146 /* NUTKeyboard+UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NUTKeyboard+UIViewController.swift"; path = "Classes/NUTKeyboard+UIViewController.swift"; sourceTree = "<group>"; };
+		57D06FCD7E62E6D2261A7D55437A2774 /* DayInfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DayInfoView.swift; sourceTree = "<group>"; };
+		5AC8199D0FC0ADE36F26EFFF6E08C02B /* TrainingCardMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingCardMapView.swift; sourceTree = "<group>"; };
 		65A1199DD10F8763B0E2B6F0AE650369 /* Pods-NUTComponents_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NUTComponents_Tests-Info.plist"; sourceTree = "<group>"; };
+		6A7EABB65046C3E47100464293611E76 /* BorderedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
 		6B49E9405F001791EB928A21352319CC /* Pods-NUTComponents_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NUTComponents_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7644A68676DDF86EC416D03B2E9CE061 /* NUTComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NUTComponents.release.xcconfig; sourceTree = "<group>"; };
-		9AF63395A1BA59D6DEC5CBC9EB93EE03 /* NUTComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NUTComponents-umbrella.h"; sourceTree = "<group>"; };
+		6CA25910D9D18B1A65BD3C90D5B41E96 /* NUTKeyboard+UIResponder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NUTKeyboard+UIResponder.swift"; path = "Classes/NUTKeyboard+UIResponder.swift"; sourceTree = "<group>"; };
+		6F8B63A2D01ECA28E149F26B3868E890 /* CustomSegmentControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
+		797484ABD6C383CF7ECD25ED12DB9751 /* NUTComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NUTComponents.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		7BDAD277860FF4C55B35B506D15F8324 /* NUTComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NUTComponents-prefix.pch"; sourceTree = "<group>"; };
+		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8F47C09DE27BA32865D2F9F5169FC625 /* DateBadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateBadgeView.swift; sourceTree = "<group>"; };
+		91D65A1F1960780AE9DF705BF90A6180 /* NUTKeyboard+UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NUTKeyboard+UITextView.swift"; path = "Classes/NUTKeyboard+UITextView.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F889D248A7E7F3FB654A56ADBA04602 /* SeparatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		A305336F8B1C8402CA60CE9A1256AF86 /* CustomTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		A94BDCF649F7FFAE1D767B09FC0AFA7D /* Pods-NUTComponents_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NUTComponents_Example-Info.plist"; sourceTree = "<group>"; };
 		ADBC1922928ABBCA513F0324C491C92D /* Pods-NUTComponents_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NUTComponents_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B217CCE4080E9F3ADE4FB6213D063EBE /* Pods-NUTComponents_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NUTComponents_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B7963CD819E5D9333288B6E602D92666 /* TrainingCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingCardView.swift; sourceTree = "<group>"; };
 		B7A41D296CAEB14B6254696D2F261C47 /* Pods-NUTComponents_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NUTComponents_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C03B1A35B7A02AB1DD549116DD2B4976 /* NUTKeyboard+UISearchBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NUTKeyboard+UISearchBar.swift"; path = "Classes/NUTKeyboard+UISearchBar.swift"; sourceTree = "<group>"; };
 		C1EA5CE3D72B3E4E5DF4DEB0843ED11D /* Pods-NUTComponents_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NUTComponents_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C2221A2CD3E8DE8EF3BB9968E1408216 /* NUTComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NUTComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D5FA5B8992128C4BAD281B036A0AEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CFAE7A60EBAC85561976C619DC91A00E /* Pods-NUTComponents_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NUTComponents_Tests-dummy.m"; sourceTree = "<group>"; };
-		DC0CDB96B50F3A5AFD617F9755F77FB3 /* NUTComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NUTComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F2FB6A172EB919580003CDB7 /* NUTKeyboard+UIResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NUTKeyboard+UIResponder.swift"; sourceTree = "<group>"; };
-		F2FB6A182EB919580003CDB7 /* NUTKeyboard+UISearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NUTKeyboard+UISearchBar.swift"; sourceTree = "<group>"; };
-		F2FB6A192EB919580003CDB7 /* NUTKeyboard+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NUTKeyboard+UITextField.swift"; sourceTree = "<group>"; };
-		F2FB6A1A2EB919580003CDB7 /* NUTKeyboard+UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NUTKeyboard+UITextView.swift"; sourceTree = "<group>"; };
-		F2FB6A1B2EB919580003CDB7 /* NUTKeyboard+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NUTKeyboard+UIViewController.swift"; sourceTree = "<group>"; };
-		F2FB6A212EB91C5B0003CDB7 /* NUTMaterialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUTMaterialButton.swift; sourceTree = "<group>"; };
-		F2FB6A602EB91D840003CDB7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F2FB6A622EB91F100003CDB7 /* CardProgressPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProgressPreview.swift; sourceTree = "<group>"; };
-		F2FB6A632EB91F100003CDB7 /* CardProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProgressView.swift; sourceTree = "<group>"; };
-		F2FB6A662EB91FC50003CDB7 /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
-		F2FB6A672EB91FC50003CDB7 /* LinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkButton.swift; sourceTree = "<group>"; };
-		F2FB6A682EB91FC50003CDB7 /* SolidButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidButton.swift; sourceTree = "<group>"; };
-		F2FB6A6A2EB91FC50003CDB7 /* BarCharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCharView.swift; sourceTree = "<group>"; };
-		F2FB6A6B2EB91FC50003CDB7 /* CheckCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCircleView.swift; sourceTree = "<group>"; };
-		F2FB6A6C2EB91FC50003CDB7 /* CustomSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
-		F2FB6A6D2EB91FC50003CDB7 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		F2FB6A6E2EB91FC50003CDB7 /* DateBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateBadgeView.swift; sourceTree = "<group>"; };
-		F2FB6A6F2EB91FC50003CDB7 /* DayInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayInfoView.swift; sourceTree = "<group>"; };
-		F2FB6A702EB91FC50003CDB7 /* FadingPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadingPanelView.swift; sourceTree = "<group>"; };
-		F2FB6A712EB91FC50003CDB7 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
-		F2FB6A722EB91FC50003CDB7 /* SegmentedProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedProgressBar.swift; sourceTree = "<group>"; };
-		F2FB6A732EB91FC50003CDB7 /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
-		F2FB6A742EB91FC50003CDB7 /* TrainingCardMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCardMapView.swift; sourceTree = "<group>"; };
-		F2FB6A752EB91FC50003CDB7 /* TrainingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCardView.swift; sourceTree = "<group>"; };
+		D995344F4A5644DE311253FD3E03481D /* NUTComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NUTComponents.debug.xcconfig; sourceTree = "<group>"; };
+		DB51F88DD12531EA6FB56BFF0A9A86F7 /* NUTComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NUTComponents.release.xcconfig; sourceTree = "<group>"; };
+		DBF2F0933726396FA59CF91EDC7AA689 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E195350675A575A340FBB9425CC20250 /* BarCharView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BarCharView.swift; sourceTree = "<group>"; };
+		EAD7C4F7D969A5C3FDC26B19B24B051B /* NUTComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NUTComponents-dummy.m"; sourceTree = "<group>"; };
+		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F2EA56F22EB992440036D5A5 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = SOURCE_ROOT; };
+		F2EA56F42EB992CF0036D5A5 /* NUTComponents.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = NUTComponents.podspec; path = /Users/miguelmexicanoherrera/Documents/NutSystems/Frameworks/NUTComponents/NUTComponents.podspec; sourceTree = "<absolute>"; };
 		F36C5A4BF6D9C6ED8C8EDA906E00A655 /* Pods-NUTComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NUTComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F73D57ABBAC67C8558C272DF331EEA7E /* CheckCircleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CheckCircleView.swift; sourceTree = "<group>"; };
 		F870BD2B957946895B154E5730525FF0 /* Pods-NUTComponents_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NUTComponents_Example.modulemap"; sourceTree = "<group>"; };
-		FB3EB2363C08E2727C9DB50260048B8A /* NUTComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NUTComponents-dummy.m"; sourceTree = "<group>"; };
-		FF1452E4E2E724475033A1C6004DAFE2 /* NUTComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NUTComponents.modulemap; sourceTree = "<group>"; };
+		F89592BE3B1D223A4D764996C4F8709F /* FadingPanelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FadingPanelView.swift; sourceTree = "<group>"; };
+		FA5BE6BF053B476F7912E2640C212E8C /* SegmentedProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentedProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B15593EAB15D15C1593FE7ACDBE4950F /* Frameworks */ = {
+		20BCD2282038749CAC52D8148DDC0469 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01DFCACF2985460442C315D0F460C9DB /* Foundation.framework in Frameworks */,
+				6DE0800E30BDE0F6FF7F9D8445D18E04 /* Foundation.framework in Frameworks */,
+				47E2E21C65474E3E8913F168DAA4ABC0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD39F5C7968D3CC8FB346170A32BBA97 /* Frameworks */ = {
+		81C72D73062672D72CF886F1848B570F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03287F1B3A35F5681E8E2BE8C1212725 /* Foundation.framework in Frameworks */,
+				B74B0ABEB09DBE3980ECB18618F0A765 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F698C106E2AC06947FEFB7770CCF5749 /* Frameworks */ = {
+		AEE05CC4A222AD7044E947A7BC65C9A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0308A998E389A8FB2DDE0B019F16C73 /* Foundation.framework in Frameworks */,
+				50E923DF8C17D84748C208A8BB39421C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0ECA7716AB8B574E081A739790D3C7EA /* Development Pods */ = {
+		031EC7637C4A2864D7476D05C7AD0A88 /* ComponentsUI */ = {
 			isa = PBXGroup;
 			children = (
-				DAC399D2419626F93FF2E47808360A06 /* NUTComponents */,
+				E195350675A575A340FBB9425CC20250 /* BarCharView.swift */,
+				F73D57ABBAC67C8558C272DF331EEA7E /* CheckCircleView.swift */,
+				6F8B63A2D01ECA28E149F26B3868E890 /* CustomSegmentControl.swift */,
+				A305336F8B1C8402CA60CE9A1256AF86 /* CustomTextField.swift */,
+				8F47C09DE27BA32865D2F9F5169FC625 /* DateBadgeView.swift */,
+				57D06FCD7E62E6D2261A7D55437A2774 /* DayInfoView.swift */,
+				F89592BE3B1D223A4D764996C4F8709F /* FadingPanelView.swift */,
+				38343A7E4D6D3040E5E6137A8F50264F /* InfoView.swift */,
+				FA5BE6BF053B476F7912E2640C212E8C /* SegmentedProgressBar.swift */,
+				9F889D248A7E7F3FB654A56ADBA04602 /* SeparatorView.swift */,
+				5AC8199D0FC0ADE36F26EFFF6E08C02B /* TrainingCardMapView.swift */,
+				B7963CD819E5D9333288B6E602D92666 /* TrainingCardView.swift */,
+				2E6EFC956CB44EA48AE35E5D2AC60511 /* Buttons */,
 			);
-			name = "Development Pods";
+			name = ComponentsUI;
+			path = Classes/ComponentsUI;
 			sourceTree = "<group>";
 		};
-		17CDCF688F3605E7124EF14AFB23F36E /* Products */ = {
+		095261FEB817FF047FB3D6B65CBB7F58 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C2221A2CD3E8DE8EF3BB9968E1408216 /* NUTComponents.framework */,
-				5476A215B9E62B7DD2360D0480DDF3FE /* Pods_NUTComponents_Example.framework */,
-				0BA86A0B2B12D01E65F4641D1FF40E9D /* Pods_NUTComponents_Tests.framework */,
+				C9D5FA5B8992128C4BAD281B036A0AEF /* LICENSE */,
+				797484ABD6C383CF7ECD25ED12DB9751 /* NUTComponents.podspec */,
+				DBF2F0933726396FA59CF91EDC7AA689 /* README.md */,
 			);
-			name = Products;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		19B703BEFCA5FF1C40C76697AE5B445A /* Support Files */ = {
+		1308AD1D7EF3C6A8D913BE7CDC65459E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF1452E4E2E724475033A1C6004DAFE2 /* NUTComponents.modulemap */,
-				FB3EB2363C08E2727C9DB50260048B8A /* NUTComponents-dummy.m */,
-				361E37F3077AFA56055FADA95FF37FDF /* NUTComponents-Info.plist */,
-				264939159DFB07A5304C239BA1A45991 /* NUTComponents-prefix.pch */,
-				9AF63395A1BA59D6DEC5CBC9EB93EE03 /* NUTComponents-umbrella.h */,
-				4571BBA73564A6504DD39E9D94EF599F /* NUTComponents.debug.xcconfig */,
-				7644A68676DDF86EC416D03B2E9CE061 /* NUTComponents.release.xcconfig */,
+				24AFBD2838F631919C7F966C3FE80C3E /* NUTComponents.modulemap */,
+				EAD7C4F7D969A5C3FDC26B19B24B051B /* NUTComponents-dummy.m */,
+				188E1F314EF4E0639509401B57B49780 /* NUTComponents-Info.plist */,
+				7BDAD277860FF4C55B35B506D15F8324 /* NUTComponents-prefix.pch */,
+				1118FFBAF739F18BB0E35D6C00CEF6D1 /* NUTComponents-umbrella.h */,
+				D995344F4A5644DE311253FD3E03481D /* NUTComponents.debug.xcconfig */,
+				DB51F88DD12531EA6FB56BFF0A9A86F7 /* NUTComponents.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/NUTComponents";
 			sourceTree = "<group>";
 		};
-		1D2E965A253B917600F15EB6 /* Classes */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F2FB6A762EB91FC50003CDB7 /* ComponentsUI */,
-				F2FB6A612EB91F040003CDB7 /* Card */,
-				F2FB6A172EB919580003CDB7 /* NUTKeyboard+UIResponder.swift */,
-				F2FB6A182EB919580003CDB7 /* NUTKeyboard+UISearchBar.swift */,
-				F2FB6A192EB919580003CDB7 /* NUTKeyboard+UITextField.swift */,
-				F2FB6A1A2EB919580003CDB7 /* NUTKeyboard+UITextView.swift */,
-				F2FB6A1B2EB919580003CDB7 /* NUTKeyboard+UIViewController.swift */,
-				F2FB6A212EB91C5B0003CDB7 /* NUTMaterialButton.swift */,
+				1DE6440B6853131A80C53DDA34375AAB /* iOS */,
 			);
-			path = Classes;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DE6440B6853131A80C53DDA34375AAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */,
+				ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2E6EFC956CB44EA48AE35E5D2AC60511 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				6A7EABB65046C3E47100464293611E76 /* BorderedButton.swift */,
+				3C801AD51B2BE3237BA9EF70BE1FF97E /* LinkButton.swift */,
+				4339983D6BBB99307C1680E0C00AAE38 /* SolidButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		39CBE950F020840DEA214E889F251268 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				574EE4ACB5253746D085BF861C574789 /* CardProgressPreview.swift */,
+				1B628E92FA8E326DEF20359F08012F45 /* CardProgressView.swift */,
+			);
+			name = Card;
+			path = Classes/Card;
 			sourceTree = "<group>";
 		};
 		3B56A6299C617FFE3DABD1AD0ECCE58F /* Pods-NUTComponents_Tests */ = {
@@ -207,16 +247,6 @@
 			);
 			name = "Pods-NUTComponents_Tests";
 			path = "Target Support Files/Pods-NUTComponents_Tests";
-			sourceTree = "<group>";
-		};
-		440A28405DBEF67766F98B65FA7C8763 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				04135BACA00312340DE42C1F5C436980 /* LICENSE */,
-				DC0CDB96B50F3A5AFD617F9755F77FB3 /* NUTComponents.podspec */,
-				3043F048FB14FB1A566343F4BAF5A0A0 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		8722FA6A25DB6D7ABAB8A82ADA234FAD /* Pods-NUTComponents_Example */ = {
@@ -236,12 +266,14 @@
 			path = "Target Support Files/Pods-NUTComponents_Example";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		BDA35365E0D81538135F4A46D718CA87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				C2221A2CD3E8DE8EF3BB9968E1408216 /* NUTComponents.framework */,
+				5476A215B9E62B7DD2360D0480DDF3FE /* Pods_NUTComponents_Example.framework */,
+				0BA86A0B2B12D01E65F4641D1FF40E9D /* Pods_NUTComponents_Tests.framework */,
 			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CB4CD1037D14A1DA571DD5C646CAE0C1 /* Targets Support Files */ = {
@@ -256,97 +288,66 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				F2FB6A602EB91D840003CDB7 /* README.md */,
+				F2EA56F42EB992CF0036D5A5 /* NUTComponents.podspec */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0ECA7716AB8B574E081A739790D3C7EA /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				17CDCF688F3605E7124EF14AFB23F36E /* Products */,
+				D5CE9FF6CC1624644F7C48E8467A883C /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				BDA35365E0D81538135F4A46D718CA87 /* Products */,
 				CB4CD1037D14A1DA571DD5C646CAE0C1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D5CE9FF6CC1624644F7C48E8467A883C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				F2EA56F22EB992440036D5A5 /* CHANGELOG.md */,
+				E812C3F99592B84B4E5853CF42432B97 /* NUTComponents */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		DAC399D2419626F93FF2E47808360A06 /* NUTComponents */ = {
+		E812C3F99592B84B4E5853CF42432B97 /* NUTComponents */ = {
 			isa = PBXGroup;
 			children = (
-				1D2E965A253B917600F15EB6 /* Classes */,
-				440A28405DBEF67766F98B65FA7C8763 /* Pod */,
-				19B703BEFCA5FF1C40C76697AE5B445A /* Support Files */,
+				6CA25910D9D18B1A65BD3C90D5B41E96 /* NUTKeyboard+UIResponder.swift */,
+				C03B1A35B7A02AB1DD549116DD2B4976 /* NUTKeyboard+UISearchBar.swift */,
+				380625E6D789599A732A3D5AA13E0296 /* NUTKeyboard+UITextField.swift */,
+				91D65A1F1960780AE9DF705BF90A6180 /* NUTKeyboard+UITextView.swift */,
+				578FDC3958CB13EB9DB7BC30E8597146 /* NUTKeyboard+UIViewController.swift */,
+				11BD57AEF89EEB7FD5873C39DF574B1B /* NUTMaterialButton.swift */,
+				39CBE950F020840DEA214E889F251268 /* Card */,
+				031EC7637C4A2864D7476D05C7AD0A88 /* ComponentsUI */,
+				095261FEB817FF047FB3D6B65CBB7F58 /* Pod */,
+				1308AD1D7EF3C6A8D913BE7CDC65459E /* Support Files */,
 			);
 			name = NUTComponents;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		F2FB6A612EB91F040003CDB7 /* Card */ = {
-			isa = PBXGroup;
-			children = (
-				F2FB6A622EB91F100003CDB7 /* CardProgressPreview.swift */,
-				F2FB6A632EB91F100003CDB7 /* CardProgressView.swift */,
-			);
-			path = Card;
-			sourceTree = "<group>";
-		};
-		F2FB6A692EB91FC50003CDB7 /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				F2FB6A662EB91FC50003CDB7 /* BorderedButton.swift */,
-				F2FB6A672EB91FC50003CDB7 /* LinkButton.swift */,
-				F2FB6A682EB91FC50003CDB7 /* SolidButton.swift */,
-			);
-			path = Buttons;
-			sourceTree = "<group>";
-		};
-		F2FB6A762EB91FC50003CDB7 /* ComponentsUI */ = {
-			isa = PBXGroup;
-			children = (
-				F2FB6A692EB91FC50003CDB7 /* Buttons */,
-				F2FB6A6A2EB91FC50003CDB7 /* BarCharView.swift */,
-				F2FB6A6B2EB91FC50003CDB7 /* CheckCircleView.swift */,
-				F2FB6A6C2EB91FC50003CDB7 /* CustomSegmentControl.swift */,
-				F2FB6A6D2EB91FC50003CDB7 /* CustomTextField.swift */,
-				F2FB6A6E2EB91FC50003CDB7 /* DateBadgeView.swift */,
-				F2FB6A6F2EB91FC50003CDB7 /* DayInfoView.swift */,
-				F2FB6A702EB91FC50003CDB7 /* FadingPanelView.swift */,
-				F2FB6A712EB91FC50003CDB7 /* InfoView.swift */,
-				F2FB6A722EB91FC50003CDB7 /* SegmentedProgressBar.swift */,
-				F2FB6A732EB91FC50003CDB7 /* SeparatorView.swift */,
-				F2FB6A742EB91FC50003CDB7 /* TrainingCardMapView.swift */,
-				F2FB6A752EB91FC50003CDB7 /* TrainingCardView.swift */,
-			);
-			path = ComponentsUI;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1FA90B6E9566E5111FD9F47984CB66F2 /* Headers */ = {
+		30FF7B0C13ED5B0F591F2B8D44BD83E5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F40CF8E98684E1E64780CEF5BF2942BE /* Pods-NUTComponents_Tests-umbrella.h in Headers */,
+				1FBAA1E4AE77469AAB8EA3C9EA4A4FD4 /* Pods-NUTComponents_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52F7AF6A3D160C4890DD6D7CCA939F9C /* Headers */ = {
+		41EEFC30D9D57EF5EDA721CDA9FF90A8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21280F3F26C9D76E689EC4DE0F40825E /* Pods-NUTComponents_Example-umbrella.h in Headers */,
+				D6DC3801CB30EBB29BD3B5C1CFEEA019 /* NUTComponents-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AC3803036C688F50D1C3C953C18D8A5 /* Headers */ = {
+		A33DC5B453B0AC110D6C2B7A154A9BC5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A82652612BB4D89E2DA118AEE2B07B51 /* NUTComponents-umbrella.h in Headers */,
+				657802DF405D7069866FB01468000B2B /* Pods-NUTComponents_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,50 +356,50 @@
 /* Begin PBXNativeTarget section */
 		0F595376E17AC082C6F82701424B71A8 /* Pods-NUTComponents_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A478A52DF44AA7D164D6C5D83B772891 /* Build configuration list for PBXNativeTarget "Pods-NUTComponents_Tests" */;
+			buildConfigurationList = F23613E28B99CEACEBD77EBF9A30F990 /* Build configuration list for PBXNativeTarget "Pods-NUTComponents_Tests" */;
 			buildPhases = (
-				1FA90B6E9566E5111FD9F47984CB66F2 /* Headers */,
-				5698FF4D232068FD63A09F62C006B87C /* Sources */,
-				F698C106E2AC06947FEFB7770CCF5749 /* Frameworks */,
-				AEA99F5E695092F0BA69A7C49B17D366 /* Resources */,
+				A33DC5B453B0AC110D6C2B7A154A9BC5 /* Headers */,
+				97612224564D41010CAB9F546FFC54B9 /* Sources */,
+				81C72D73062672D72CF886F1848B570F /* Frameworks */,
+				06F64AF6921B860EFFEB6625A8CF83AF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EBB04E813A014CFB102ABCB54F686CCC /* PBXTargetDependency */,
+				608B9E541A09976C5F0E0FB0A370F08A /* PBXTargetDependency */,
 			);
 			name = "Pods-NUTComponents_Tests";
-			productName = "Pods-NUTComponents_Tests";
+			productName = Pods_NUTComponents_Tests;
 			productReference = 0BA86A0B2B12D01E65F4641D1FF40E9D /* Pods_NUTComponents_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5C758CAA87016B49DDE18F14D4FBFE47 /* Pods-NUTComponents_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3134E56B4835A48606A320ECD85F2C71 /* Build configuration list for PBXNativeTarget "Pods-NUTComponents_Example" */;
+			buildConfigurationList = 9C733B25A07985C003534BEDCC35540E /* Build configuration list for PBXNativeTarget "Pods-NUTComponents_Example" */;
 			buildPhases = (
-				52F7AF6A3D160C4890DD6D7CCA939F9C /* Headers */,
-				C27ABE1AC68625A7100933E99CB256A2 /* Sources */,
-				BD39F5C7968D3CC8FB346170A32BBA97 /* Frameworks */,
-				BA3060BE52CA89A7D34EE6F058ACDD97 /* Resources */,
+				30FF7B0C13ED5B0F591F2B8D44BD83E5 /* Headers */,
+				D5A0C80EA6D40386D90E0507EC688A4A /* Sources */,
+				AEE05CC4A222AD7044E947A7BC65C9A3 /* Frameworks */,
+				BD1B17FF7CC8FE942AB0B63B2F9A6DDB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8BAF15E876F413EF6F9A69C249508853 /* PBXTargetDependency */,
+				200CEF409634B1EA6A6708AFA8AEFF5D /* PBXTargetDependency */,
 			);
 			name = "Pods-NUTComponents_Example";
-			productName = "Pods-NUTComponents_Example";
+			productName = Pods_NUTComponents_Example;
 			productReference = 5476A215B9E62B7DD2360D0480DDF3FE /* Pods_NUTComponents_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9F1CFB24251C6CA9CDAC518698DE5C34 /* NUTComponents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AB4A542A9091169E415145E8C0D16A4 /* Build configuration list for PBXNativeTarget "NUTComponents" */;
+			buildConfigurationList = 9943CEA09D5DFACBDBAF21AA4A22AADE /* Build configuration list for PBXNativeTarget "NUTComponents" */;
 			buildPhases = (
-				6AC3803036C688F50D1C3C953C18D8A5 /* Headers */,
-				7C7F0CE7ABE4DA0007FB0171498A50FE /* Sources */,
-				B15593EAB15D15C1593FE7ACDBE4950F /* Frameworks */,
-				FB8EDCC9F19C7AA15EB78FA9D1F76860 /* Resources */,
+				41EEFC30D9D57EF5EDA721CDA9FF90A8 /* Headers */,
+				090F93B4D2B8C03457C88AD5099F0D04 /* Sources */,
+				20BCD2282038749CAC52D8148DDC0469 /* Frameworks */,
+				49AF9968B1818F7F86C48BF9986E0B5C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -415,24 +416,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1200;
-				TargetAttributes = {
-					9F1CFB24251C6CA9CDAC518698DE5C34 = {
-						LastSwiftMigration = 1200;
-					};
-				};
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 17CDCF688F3605E7124EF14AFB23F36E /* Products */;
+			productRefGroup = BDA35365E0D81538135F4A46D718CA87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -444,21 +440,22 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AEA99F5E695092F0BA69A7C49B17D366 /* Resources */ = {
+		06F64AF6921B860EFFEB6625A8CF83AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA3060BE52CA89A7D34EE6F058ACDD97 /* Resources */ = {
+		49AF9968B1818F7F86C48BF9986E0B5C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2EA56F32EB992440036D5A5 /* CHANGELOG.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB8EDCC9F19C7AA15EB78FA9D1F76860 /* Resources */ = {
+		BD1B17FF7CC8FE942AB0B63B2F9A6DDB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -468,210 +465,78 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5698FF4D232068FD63A09F62C006B87C /* Sources */ = {
+		090F93B4D2B8C03457C88AD5099F0D04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01A3CD224C92F958B883679F9635A34E /* Pods-NUTComponents_Tests-dummy.m in Sources */,
+				C8D1E5766C795B242C9857B326B34976 /* BarCharView.swift in Sources */,
+				F69F774BB3135A8F54C89A84D2657FA6 /* BorderedButton.swift in Sources */,
+				F4E166A1460AE8D47DA4CA70B12EACD7 /* CardProgressPreview.swift in Sources */,
+				1F8C3EAB20D7492D563314651CB95B2B /* CardProgressView.swift in Sources */,
+				6C83F7D67797993EB5451095BF25C54A /* CheckCircleView.swift in Sources */,
+				A198D06319E959C2FA02D3D3A49ACA35 /* CustomSegmentControl.swift in Sources */,
+				37542AF48B14C2A7E801CEBDC98B858F /* CustomTextField.swift in Sources */,
+				74212EAFA955CEF5BD2EFA3096C5C0FE /* DateBadgeView.swift in Sources */,
+				421B0A79841CAA79E1E9D08F459D35F5 /* DayInfoView.swift in Sources */,
+				8FB659E4DBDE5D92712A399907CCAB05 /* FadingPanelView.swift in Sources */,
+				038D9155ADC32F45C05E53819B9522E2 /* InfoView.swift in Sources */,
+				1F7C6C9ACCB02FCC350774E0122BF146 /* LinkButton.swift in Sources */,
+				A494D336664CE989B81F561638143144 /* NUTComponents-dummy.m in Sources */,
+				E00F56BE842BD8B97C4C4A8A5CF1371C /* NUTKeyboard+UIResponder.swift in Sources */,
+				37BE5DF6AC7387DC70F1A22A01940C6E /* NUTKeyboard+UISearchBar.swift in Sources */,
+				4B7CA3D2C066E5D4B506FEE33D451889 /* NUTKeyboard+UITextField.swift in Sources */,
+				A4D69542C2BC4BFC1720EF9F9FF1D403 /* NUTKeyboard+UITextView.swift in Sources */,
+				90A672C708346DB401A3D4789144C62B /* NUTKeyboard+UIViewController.swift in Sources */,
+				0B304E917A41BC3F07D528F709A87D21 /* NUTMaterialButton.swift in Sources */,
+				1C4768F45DAED2D2019F4C8381D152BB /* SegmentedProgressBar.swift in Sources */,
+				ADC3939046F165034469295E2E20C007 /* SeparatorView.swift in Sources */,
+				33E55D8A5EBB1EB8623512C8E2BF76EC /* SolidButton.swift in Sources */,
+				1C4BFCA5528AAB4F234463D8ABFCF345 /* TrainingCardMapView.swift in Sources */,
+				D6EDCEBF705BEE9C8910875FD948D489 /* TrainingCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C7F0CE7ABE4DA0007FB0171498A50FE /* Sources */ = {
+		97612224564D41010CAB9F546FFC54B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2FB6A642EB91F100003CDB7 /* CardProgressView.swift in Sources */,
-				F2FB6A652EB91F100003CDB7 /* CardProgressPreview.swift in Sources */,
-				3DE38C310FD8F73E073095AE7AE5366F /* NUTComponents-dummy.m in Sources */,
-				F2FB6A1C2EB919580003CDB7 /* NUTKeyboard+UISearchBar.swift in Sources */,
-				F2FB6A1D2EB919580003CDB7 /* NUTKeyboard+UITextField.swift in Sources */,
-				F2FB6A1E2EB919580003CDB7 /* NUTKeyboard+UITextView.swift in Sources */,
-				F2FB6A772EB91FC50003CDB7 /* InfoView.swift in Sources */,
-				F2FB6A782EB91FC50003CDB7 /* FadingPanelView.swift in Sources */,
-				F2FB6A792EB91FC50003CDB7 /* SegmentedProgressBar.swift in Sources */,
-				F2FB6A7A2EB91FC50003CDB7 /* DateBadgeView.swift in Sources */,
-				F2FB6A7B2EB91FC50003CDB7 /* TrainingCardMapView.swift in Sources */,
-				F2FB6A7C2EB91FC50003CDB7 /* SeparatorView.swift in Sources */,
-				F2FB6A7D2EB91FC50003CDB7 /* LinkButton.swift in Sources */,
-				F2FB6A7E2EB91FC50003CDB7 /* CustomSegmentControl.swift in Sources */,
-				F2FB6A7F2EB91FC50003CDB7 /* CustomTextField.swift in Sources */,
-				F2FB6A802EB91FC50003CDB7 /* TrainingCardView.swift in Sources */,
-				F2FB6A812EB91FC50003CDB7 /* CheckCircleView.swift in Sources */,
-				F2FB6A822EB91FC50003CDB7 /* BorderedButton.swift in Sources */,
-				F2FB6A832EB91FC50003CDB7 /* SolidButton.swift in Sources */,
-				F2FB6A842EB91FC50003CDB7 /* BarCharView.swift in Sources */,
-				F2FB6A852EB91FC50003CDB7 /* DayInfoView.swift in Sources */,
-				F2FB6A1F2EB919580003CDB7 /* NUTKeyboard+UIViewController.swift in Sources */,
-				F2FB6A202EB919580003CDB7 /* NUTKeyboard+UIResponder.swift in Sources */,
-				F2FB6A222EB91C5B0003CDB7 /* NUTMaterialButton.swift in Sources */,
+				2FF752E21DC084ABEE728D2F63800FE4 /* Pods-NUTComponents_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C27ABE1AC68625A7100933E99CB256A2 /* Sources */ = {
+		D5A0C80EA6D40386D90E0507EC688A4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1221E8CD5201E2D71B097A4DAB88299 /* Pods-NUTComponents_Example-dummy.m in Sources */,
+				E75839AAD31278AE23F32B15E1C63CC3 /* Pods-NUTComponents_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8BAF15E876F413EF6F9A69C249508853 /* PBXTargetDependency */ = {
+		200CEF409634B1EA6A6708AFA8AEFF5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NUTComponents;
 			target = 9F1CFB24251C6CA9CDAC518698DE5C34 /* NUTComponents */;
-			targetProxy = F0264459088B29392391EE5A20117306 /* PBXContainerItemProxy */;
+			targetProxy = A6EBF084D63AF7405FEE395C8F5E5185 /* PBXContainerItemProxy */;
 		};
-		EBB04E813A014CFB102ABCB54F686CCC /* PBXTargetDependency */ = {
+		608B9E541A09976C5F0E0FB0A370F08A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-NUTComponents_Example";
 			target = 5C758CAA87016B49DDE18F14D4FBFE47 /* Pods-NUTComponents_Example */;
-			targetProxy = B75B8DBBD8FD9280DB9A047D007E2598 /* PBXContainerItemProxy */;
+			targetProxy = FC26E5BDF5C2A28CFCD2763020FC918A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		20C6C3971F251209409ED9C042E22766 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7644A68676DDF86EC416D03B2E9CE061 /* NUTComponents.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NUTComponents/NUTComponents-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NUTComponents/NUTComponents-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NUTComponents/NUTComponents.modulemap";
-				PRODUCT_MODULE_NAME = NUTComponents;
-				PRODUCT_NAME = NUTComponents;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2DE23C6443077DB745B68F08382380B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7A41D296CAEB14B6254696D2F261C47 /* Pods-NUTComponents_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NUTComponents_Tests/Pods-NUTComponents_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NUTComponents_Tests/Pods-NUTComponents_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6BFB0F19F78CB06EEED7B47C17EC0F26 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4571BBA73564A6504DD39E9D94EF599F /* NUTComponents.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NUTComponents/NUTComponents-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NUTComponents/NUTComponents-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NUTComponents/NUTComponents.modulemap";
-				PRODUCT_MODULE_NAME = NUTComponents;
-				PRODUCT_NAME = NUTComponents;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		75FCDB82DEFD2000A24465C8D0859F8F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CDA9A377165E3A21BA5D19DFEAD9EDA /* Pods-NUTComponents_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NUTComponents_Tests/Pods-NUTComponents_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NUTComponents_Tests/Pods-NUTComponents_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8C10BFC5ACCDA12104199BEB752C10F5 /* Debug */ = {
+		03CA998BA96AD773EF9A40000198CF6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 42B9486440261AC20DC08A83B3DEDCEF /* Pods-NUTComponents_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -680,9 +545,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-NUTComponents_Example/Pods-NUTComponents_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NUTComponents_Example/Pods-NUTComponents_Example.modulemap";
@@ -699,70 +566,84 @@
 			};
 			name = Debug;
 		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		064AABED41DFCA2439DAD09B514B31D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D995344F4A5644DE311253FD3E03481D /* NUTComponents.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/NUTComponents/NUTComponents-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/NUTComponents/NUTComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NUTComponents/NUTComponents.modulemap";
+				PRODUCT_MODULE_NAME = NUTComponents;
+				PRODUCT_NAME = NUTComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A66B6A5B79D5CC556821ED4885367B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A41D296CAEB14B6254696D2F261C47 /* Pods-NUTComponents_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-NUTComponents_Tests/Pods-NUTComponents_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NUTComponents_Tests/Pods-NUTComponents_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -811,7 +692,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -824,12 +705,74 @@
 			};
 			name = Debug;
 		};
-		E43850F719C18E5F3EF907758E776DB7 /* Release */ = {
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F36C5A4BF6D9C6ED8C8EDA906E00A655 /* Pods-NUTComponents_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9FD8355D8AE07FC437E3E9CB13184E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CDA9A377165E3A21BA5D19DFEAD9EDA /* Pods-NUTComponents_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -838,9 +781,47 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-NUTComponents_Tests/Pods-NUTComponents_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NUTComponents_Tests/Pods-NUTComponents_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B82CDC6D5D0223858B8D97E13FC8170E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36C5A4BF6D9C6ED8C8EDA906E00A655 /* Pods-NUTComponents_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-NUTComponents_Example/Pods-NUTComponents_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NUTComponents_Example/Pods-NUTComponents_Example.modulemap";
@@ -858,41 +839,78 @@
 			};
 			name = Release;
 		};
+		CD3A34AB465FB7038AF5A1F94E1DCDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB51F88DD12531EA6FB56BFF0A9A86F7 /* NUTComponents.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/NUTComponents/NUTComponents-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/NUTComponents/NUTComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NUTComponents/NUTComponents.modulemap";
+				PRODUCT_MODULE_NAME = NUTComponents;
+				PRODUCT_NAME = NUTComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1AB4A542A9091169E415145E8C0D16A4 /* Build configuration list for PBXNativeTarget "NUTComponents" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6BFB0F19F78CB06EEED7B47C17EC0F26 /* Debug */,
-				20C6C3971F251209409ED9C042E22766 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3134E56B4835A48606A320ECD85F2C71 /* Build configuration list for PBXNativeTarget "Pods-NUTComponents_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8C10BFC5ACCDA12104199BEB752C10F5 /* Debug */,
-				E43850F719C18E5F3EF907758E776DB7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A478A52DF44AA7D164D6C5D83B772891 /* Build configuration list for PBXNativeTarget "Pods-NUTComponents_Tests" */ = {
+		9943CEA09D5DFACBDBAF21AA4A22AADE /* Build configuration list for PBXNativeTarget "NUTComponents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75FCDB82DEFD2000A24465C8D0859F8F /* Debug */,
-				2DE23C6443077DB745B68F08382380B9 /* Release */,
+				064AABED41DFCA2439DAD09B514B31D2 /* Debug */,
+				CD3A34AB465FB7038AF5A1F94E1DCDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C733B25A07985C003534BEDCC35540E /* Build configuration list for PBXNativeTarget "Pods-NUTComponents_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CA998BA96AD773EF9A40000198CF6C /* Debug */,
+				B82CDC6D5D0223858B8D97E13FC8170E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23613E28B99CEACEBD77EBF9A30F990 /* Build configuration list for PBXNativeTarget "Pods-NUTComponents_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD8355D8AE07FC437E3E9CB13184E90 /* Debug */,
+				7A66B6A5B79D5CC556821ED4885367B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
