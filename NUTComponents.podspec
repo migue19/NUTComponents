@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
   - Fully customizable and IBDesignable components
                        DESC
 
-  s.homepage         = 'https://github.com/NutSystems/NUTComponents'
+  s.homepage         = 'https://github.com/migue19/NUTComponents'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Miguel Mexicano Herrera' => 'miguel@nutsystems.com' }
-  s.source           = { :git => 'https://github.com/NutSystems/NUTComponents.git', :tag => s.version.to_s }
+  s.author           = { 'Miguel Mexicano Herrera' => 'miguelmexicano18@gmail.com' }
+  s.source           = { :git => 'https://github.com/migue19/NUTComponents.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '13.0'
   s.swift_versions = ['5.0', '5.1', '5.2', '5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '5.9']
