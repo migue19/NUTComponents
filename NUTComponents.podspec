@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NUTComponents'
-  s.version          = '1.0.3'
+  s.version          = '0.1.3'
   s.summary          = 'A comprehensive collection of reusable UI components and keyboard extensions for iOS applications.'
   
   s.description      = <<-DESC
